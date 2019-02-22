@@ -13,4 +13,4 @@ h <- function(x) {
 }
 
 y = h(x)
-plot(x, y, type='l', xlab='theta', ylab='likelihood')
+plot(x, y, type='l', xlab='theta', ylab='log-likelihood')
